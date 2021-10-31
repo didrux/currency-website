@@ -21,12 +21,16 @@
       background: linear-gradient( grey,white,  grey);
     }
 
+
+    img.middle { vertical-align: middle; }
+
     /* використайте селектор  елемента для напису-слогана у заголовку сайта */
     header {
       font-size: 2rem;
       text-align: center;
       text-shadow: grey 2px 2px;
     }
+
 
     /* використайте селектор елемента main */
     .main-content {
