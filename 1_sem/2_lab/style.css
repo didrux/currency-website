@@ -2,10 +2,9 @@
 
     /* використайте селектор елемента body */
     body {
-      margin: 25px;
+        margin: 25px;
       padding: 0;
-      background: rgb(226, 223, 223, 0.5);
-      background: url(sky.jpg);
+      background: rgb(100, 223, 223, 0.5);
     }
 
     /* використайте універсальний селектор */
@@ -15,12 +14,8 @@
 
     /* використайте селектор елемента header */
     header {
-      padding: 20px;
-      /* background-color: rgb(192, 201, 255); */
-      /* abo */
-      background: linear-gradient( grey,white,  grey);
+        background: rgb(226, 223, 223, 0.9);
     }
-
 
     img.middle { vertical-align: middle; }
 
