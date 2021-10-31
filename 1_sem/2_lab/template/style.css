@@ -35,7 +35,7 @@
     }
 
     /* використайте селектор потомка для  класу side-menu всередині елемента aside */
-    .side-menu {
+    aside .side-menu {
       float: right;
       max-width: 25%;
       min-width: 200px;
@@ -47,7 +47,7 @@
     }
 
     /* використайте селектор  li всередині  класу side-menu */
-    #menu-header {
+    .side-menu li {
       margin: 7px 0;
       list-style: none;
     }
@@ -63,7 +63,7 @@
 
     /* використайте селектор потомка для тегов li всередині .side-menu  */
     /* та селектор дочірніх елементов для тегів <a> всередині li  */
-    li, a {
+    .side-menu li, li a {
       text-decoration: none;
       color: steelblue;
       padding: 2px;
@@ -76,7 +76,7 @@
     }
 
     /* використайте заголовки h2 з класом main-content */
-    h2 {
+    h2, main-content {
       font-size: 1.8rem;
       text-decoration: underline;
       text-align: center;
@@ -84,7 +84,7 @@
     }
 
     /* використайте тег p з класом main-content */
-    p {
+    p, main-content {
       border: 1px solid #999;
       border-radius: 5px;
       padding: 6px;
@@ -94,22 +94,22 @@
 
      /* використайте  значення атрибуту id-data ="1" з тегом p  та з класом main-content */
 
-     p[id-data="1"] {
+     .main-content p[id-data="1"] {
      background-color: #cdd4d6;
     }
      /* використайте  значення атрибуту id-data ="2" з тегом p  та з класом main-content */
 
-     p[id-data="2"]  {
+     .main-content p[id-data="2"]  {
     background-color: #e6f4f8;
     }
 
     /* виберіть першу лінію через псевдо-елемент усіх параграфів p, як дочірні до блока з класом main-content */
-    p:first-line {
+    .main-content p:first-line {
       color: darkblue
     }
 
     /* виберіть першу букву через псевдо-елемент усіх параграфів p, як дочірні до блока з класом  main-content */
-    p:first-letter {
+    .main-content p:first-letter {
       text-decoration: underline;
       font-size: 1.6rem;
     }
