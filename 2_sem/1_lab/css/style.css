@@ -35,3 +35,31 @@ header{
     -ms-align-items: center;
     align-items: center;
 }
+.head_inner .logo{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ccc;
+}
+.head_inner nav ul{
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner nav ul li{
+    list-style-type: none;
+}
+.head_inner nav ul li a{
+    font-size: 14px;
+    color: #ccc;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
