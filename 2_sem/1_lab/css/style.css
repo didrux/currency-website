@@ -149,7 +149,6 @@ section{
     position: relative;
     padding: 20px 0;
     width: 100%;
-    height: 100vh;
 }
 .section_title{
     font-size: 36px;
@@ -169,4 +168,31 @@ body.switchMode .section_title{
 }
 body.switchMode .about_text p{
     color: #fff;
+}
+
+.sample_items{
+    margin-top: 45px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sample_items .item{
+    margin: 0 10px 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.sample_items .item img{
+    max-width: 80%;
+}
+.sample_btn{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
 }
