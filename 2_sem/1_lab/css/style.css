@@ -196,3 +196,18 @@ body.switchMode .about_text p{
     display: flex;
     justify-content: center;
 }
+
+footer{
+    padding: 20px 0;
+    background-color: #191819;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer span{
+    color: #ccc;
+}
