@@ -99,3 +99,48 @@ header{
 body.switchMode .head_inner nav ul li.switch a:after{
     left: 20px;
 }
+
+.header_body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+}
+.header_body_inner{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    width: 100%;
+}
+.header_body_inner .left .title{
+    color: #333;
+    font-size: 46px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+body.switchMode .header_body_inner .left .title{
+    color: #fff;
+}
+.header_body_inner .left .title span{
+    color: #229ED9;
+}
+a.btn{
+    display: inline-block;
+    background-color: #229ED9;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.header_body_inner .right img{
+    border-radius: 50%;
+}
