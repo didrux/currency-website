@@ -9,6 +9,14 @@ body{
     position: relative;
     background-color: #fff;
     font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+}
+body.switchMode{
+    background-color: #000;
 }
 .container{
     max-width: 1200px;
@@ -87,4 +95,7 @@ header{
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+}
+body.switchMode .head_inner nav ul li.switch a:after{
+    left: 20px;
 }
