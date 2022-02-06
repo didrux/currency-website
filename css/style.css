@@ -24,6 +24,10 @@ body.switchMode{
     padding: 0 15px;
 }
 
+.header__burger{
+    display: none;
+}
+
 @media (max-width: 1200px) {
     .container{
         max-width: 970px;
@@ -37,6 +41,38 @@ body.switchMode{
 @media (max-width: 767px) {
     .container{
         max-width: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+    .header__burger:before,
+    .header__burger:after{
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .header__burger span{
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .header__burger:before{
+        top: 0;
+    }
+    .header__burger:after{
+        bottom: 0;
     }
 }
 
