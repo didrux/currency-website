@@ -22,3 +22,21 @@ header__burger.forEach(function (item) {
         back.classList.toggle('lock');
     }
 });
+
+$(document).ready(function(){
+
+    var headerHeight = $('.header_head').outerHeight();
+
+    $('.header__link').click(function(e){
+
+        var linkHref = $(this).attr('href');
+
+        $('html,body').animate({
+            scrollTop: $(linkHref).offset().top - headerHeight
+        }, 1000);
+
+        e.preventDefault();
+
+    })
+
+})
