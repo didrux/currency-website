@@ -280,7 +280,8 @@ a.btn{
     border-radius: 5px;
 }
 .header_body_inner .right img{
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
 }
 
 section{
