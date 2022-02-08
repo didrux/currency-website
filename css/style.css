@@ -327,6 +327,14 @@ body.switchMode .about_text p{
 .sample_items .item img{
     max-width: 80%;
 }
+.sample_items .item img:hover{
+    transform: scale(1.1);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
 .sample_btn{
     display: -webkit-flex;
     display: -moz-flex;
