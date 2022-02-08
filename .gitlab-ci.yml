@@ -1,0 +1,12 @@
+include:
+  - project: pepperize/gitlab-templates
+    file: gitlab-ci/base.gitlab-ci.yml
+
+stages:
+  - test
+
+test-code-job1:
+  stage: test
+  script:
+    - echo "Hello Currency Bot Website world!"
+
