@@ -2,7 +2,7 @@ $(function (){
 
     $(".head_inner nav ul li.switch a").on("click", function(e){
        $("body").toggleClass("switchMode");
-        var src = ($("#my_image").attr("src") === "img/logo.png")
+        let src = ($("#my_image").attr("src") === "img/logo.png")
             ? "img/logo_white.png"
             : "img/logo.png";
         $("#my_image").attr("src", src);
@@ -33,11 +33,11 @@ header__link.forEach(function (item) {
 
 $(document).ready(function(){
 
-    var headerHeight = $('.header_head').outerHeight();
+    let headerHeight = $('.header_head').outerHeight();
 
     $('.header__link').click(function(e){
 
-        var linkHref = $(this).attr('href');
+        let linkHref = $(this).attr('href');
 
         $('html,body').animate({
             scrollTop: $(linkHref).offset().top - headerHeight
