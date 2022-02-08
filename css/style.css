@@ -148,7 +148,7 @@ body.switchMode{
     }
 
     .header__menu.active{
-        top: 0;
+        top: 5%;
     }
 
     .header__list{
