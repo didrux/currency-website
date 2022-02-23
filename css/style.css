@@ -218,6 +218,11 @@ header{
     overflow: hidden;
     list-style: none;
     margin: 0px 0px 0px 26px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .head_inner nav ul li.switch a:after{
     content: '';
@@ -236,6 +241,11 @@ header{
 }
 body.switchMode .head_inner nav ul li.switch a{
     background-color: #04de04;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 body.switchMode .head_inner nav ul li.switch a:after{
     left: 22px;
